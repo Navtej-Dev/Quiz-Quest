@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Learning Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Child Learning Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="classes">
+            <div class="class-section">
+                <h2>Class 1-3</h2>
+                <p>Learn basic shapes, colors, and numbers. Perfect for young learners!</p>
+                <button class="start-quiz" data-class="1-3">Start Quiz</button>
+            </div>
+            <div class="class-section">
+                <h2>Class 4-6</h2>
+                <p>Explore more complex shapes, basic math, and language skills.</p>
+                <button class="start-quiz" data-class="4-6">Start Quiz</button>
+            </div>
+            <div class="class-section">
+                <h2>Class 7-8</h2>
+                <p>Dive into advanced concepts, problem-solving, and critical thinking.</p>
+                <button class="start-quiz" data-class="7-8">Start Quiz</button>
+            </div>
+        </section>
+
+        <section id="quizContainer" style="display: none;">
+            <div id="questionContainer"></div>
+            <button id="submitQuiz">Submit Answer</button>
+        </section>
+        <div id="resultContainer" style="display: none;"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Child Learning Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
